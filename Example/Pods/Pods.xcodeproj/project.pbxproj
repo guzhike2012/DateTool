@@ -12,6 +12,8 @@
 		0ECB6DF5B127CF1864F41F590EB59CBC /* DateTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F41766C20A9228459FD2C3A66F31D79 /* DateTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		212EB4011D23BEE800F5212D /* DateTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 212EB3FF1D23BEE800F5212D /* DateTool.h */; };
 		212EB4021D23BEE800F5212D /* DateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EB4001D23BEE800F5212D /* DateTool.m */; };
+		212EB4091D23CBA900F5212D /* UIColor+HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 212EB4071D23CBA900F5212D /* UIColor+HexColor.h */; };
+		212EB40A1D23CBA900F5212D /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EB4081D23CBA900F5212D /* UIColor+HexColor.m */; };
 		46FA8ADED0ADDFB8A4DEB20D9AD8B2D2 /* Pods-DateTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2154DB39790460635B3409887947F1E2 /* Pods-DateTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		514CC73DFB1A6BBA88F492A456DF0828 /* Pods-DateTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46407F77CC71166C939B2C2BA10ED0 /* Pods-DateTool_Tests-dummy.m */; };
 		555222A46BA908B472BB32B080A109B2 /* DateTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E8AF69EF1DF2F2388D25FC3FC1E7F /* DateTool-dummy.m */; };
@@ -38,6 +40,8 @@
 		1FAE8004FB5EA2AFB22620CC5F39B42F /* Pods-DateTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DateTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		212EB3FF1D23BEE800F5212D /* DateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTool.h; sourceTree = "<group>"; };
 		212EB4001D23BEE800F5212D /* DateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTool.m; sourceTree = "<group>"; };
+		212EB4071D23CBA900F5212D /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		212EB4081D23CBA900F5212D /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		2154DB39790460635B3409887947F1E2 /* Pods-DateTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DateTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		24CF8B4069EFF3BA1CBF1014119C8E6A /* DateTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE24A1C6166544093BC1581F1D51777 /* Pods-DateTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DateTool_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 		1104C95575473C872F06D570BFCFEA85 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				212EB4071D23CBA900F5212D /* UIColor+HexColor.h */,
+				212EB4081D23CBA900F5212D /* UIColor+HexColor.m */,
 				212EB3FF1D23BEE800F5212D /* DateTool.h */,
 				212EB4001D23BEE800F5212D /* DateTool.m */,
 			);
@@ -241,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212EB4011D23BEE800F5212D /* DateTool.h in Headers */,
+				212EB4091D23CBA900F5212D /* UIColor+HexColor.h in Headers */,
 				0ECB6DF5B127CF1864F41F590EB59CBC /* DateTool-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +350,7 @@
 			files = (
 				555222A46BA908B472BB32B080A109B2 /* DateTool-dummy.m in Sources */,
 				212EB4021D23BEE800F5212D /* DateTool.m in Sources */,
+				212EB40A1D23CBA900F5212D /* UIColor+HexColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
