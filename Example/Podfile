@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DateTool_Example' do
+  pod 'DateTool', :path => '../'
+
+  target 'DateTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

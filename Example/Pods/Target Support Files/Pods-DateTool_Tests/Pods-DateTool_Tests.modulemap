@@ -1,0 +1,6 @@
+framework module Pods_DateTool_Tests {
+  umbrella header "Pods-DateTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

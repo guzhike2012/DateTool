@@ -1,0 +1,16 @@
+PODS:
+  - DateTool (0.1.0)
+
+DEPENDENCIES:
+  - DateTool (from `../`)
+
+EXTERNAL SOURCES:
+  DateTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DateTool: 3acd8ea9ba31c22ddccbbffc4b4b0647632b3601
+
+PODFILE CHECKSUM: 6efd48fbd6ba430179551a7e3edf9b204bc8b686
+
+COCOAPODS: 1.0.1
